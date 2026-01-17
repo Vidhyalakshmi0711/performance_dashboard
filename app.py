@@ -13,9 +13,10 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_excel(
-    r"C:\Users\Admin\Desktop\performance_dashboard\data\telugu_views.xlsx"
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "data", "telugu_views.xlsx")
+
+df = pd.read_excel(file_path)
 
 
 st.sidebar.title("Filters")
