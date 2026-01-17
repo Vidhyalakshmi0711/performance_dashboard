@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter / Colab artifacts
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
